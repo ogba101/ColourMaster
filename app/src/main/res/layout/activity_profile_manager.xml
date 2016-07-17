@@ -144,7 +144,7 @@
         <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
-           android:id="@+id/img_btn_add_profile"
+            android:id="@+id/img_btn_add_profile"
             android:background="@drawable/ic_person_add_black_16dp_2x"
             />
         <Button
