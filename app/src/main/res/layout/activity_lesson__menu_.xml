@@ -36,6 +36,7 @@
         android:background="@drawable/red_button"
         android:layout_below="@id/click_colour_instruction"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
         />
 
     <Button
@@ -46,6 +47,81 @@
         android:layout_below="@id/click_colour_instruction"
         android:layout_toRightOf="@id/red_button"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id ="@+id/yellow_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/yellow_button"
+        android:layout_below="@id/click_colour_instruction"
+        android:layout_toRightOf="@id/orange_button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id ="@+id/green_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/green_button"
+        android:layout_below="@id/click_colour_instruction"
+        android:layout_toRightOf="@id/yellow_button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id ="@+id/blue_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/blue_button"
+        android:layout_below="@id/red_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="60dp"
+        />
+
+    <Button
+        android:id ="@+id/indigo_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/indigo_button"
+        android:layout_below="@id/red_button"
+        android:layout_toRightOf="@id/blue_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id ="@+id/violet_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/violet_button"
+        android:layout_below="@id/red_button"
+        android:layout_toRightOf="@id/indigo_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id ="@+id/white_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/white_button"
+        android:layout_below="@id/blue_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="110dp"
+        />
+
+    <Button
+        android:id ="@+id/black_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/black_button"
+        android:layout_below="@id/blue_button"
+        android:layout_toRightOf="@id/white_button"
+        android:layout_marginTop="15dp"
         android:layout_marginLeft="30dp"
         />
 </RelativeLayout>
