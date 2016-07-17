@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Color Master</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="profile_1">profile_1</string>
+    <string name="profile_2">profile_2</string>
+    <string name="profile_3">profile_3</string>
+    <string name="profile_4">profile_4</string>
+    <string name="profile_5">profile_5</string>
+    <string name="profile_6">profile_6</string>
+    <string name="profile_7">profile_7</string>
+    <string name="profile_8">profile_8</string>
+    <string name="profile_9">profile_9</string>
+    <string name="profile_name">profile_name</string>
+    <string name="click_colour">Click on a colour to get started!!</string>
 </resources>

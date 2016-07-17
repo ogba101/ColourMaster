@@ -9,8 +9,151 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="project.colormaster.profileManager">
 
-    <TextView
+
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/linear_layout_line1"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id ="@+id/push_button"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:text="@string/profile_1"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:id ="@+id/push_button2"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:text="@string/profile_2"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:id ="@+id/push_button3"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:text="@string/profile_3"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout_line2"
+        android:layout_below="@+id/linear_layout_line1"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id ="@+id/push_button4"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/profile_4"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:id ="@+id/push_button5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="@string/profile_5"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:id ="@+id/push_button6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/profile_6"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout_line3"
+        android:layout_below="@+id/linear_layout_line2"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id ="@+id/push_button7"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/profile_7"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:id ="@+id/push_button8"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/profile_8"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:id ="@+id/push_button9"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="@string/profile_9"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/profile_button"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+           android:id="@+id/img_btn_add_profile"
+            android:background="@drawable/ic_person_add_black_16dp_2x"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_profile"
+            android:id="@+id/btn_add_profile"
+            />
+
+    </LinearLayout>
+
 </RelativeLayout>
