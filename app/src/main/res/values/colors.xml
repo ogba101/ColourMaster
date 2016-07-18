@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
-    <color name="colorPrimary">#9575CD</color>
-    <color name="colorPrimaryDark">#673AB7</color>
-    <color name="colorAccent">#3F51B5</color>
-</resources>
-=======
+
         <color name="colorPrimary">#9575CD</color>
         <color name="colorPrimaryDark">#673AB7</color>
         <color name="colorAccent">#3F51B5</color>
         <color name="background">#EDE7F6</color>
 </resources>
->>>>>>> b96653839cfd0c48c8e9783fc1cdb7e25ff23458
