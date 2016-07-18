@@ -7,9 +7,7 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#EDE7F6">
-
-        <!--  Header  Starts-->
+        android:background="@color/background">
         <LinearLayout
             android:orientation="vertical"
             android:id="@+id/header"
@@ -36,7 +34,7 @@
             <!--  Email Label -->
             <TextView android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#3F51B5"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="20dp"
                 android:text="First Name"/>
             <EditText android:layout_width="fill_parent"
@@ -47,7 +45,7 @@
             <!--  Password Label -->
             <TextView android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#3F51B5"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="20dp"
                 android:text="Last Name"/>
             <EditText android:layout_width="364dp"
@@ -62,10 +60,11 @@
             <Button android:id="@+id/btnLogin"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:background="#3F51B5"
+                android:background="@color/colorPrimaryDark"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="10dip"
-                android:text="ADD"/>
+                android:text="ADD"
+                />
         </LinearLayout>
         <!-- Login Form Ends -->
     </RelativeLayout>

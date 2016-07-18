@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#EDE7F6"
+    android:background="@color/background"
     tools:context="project.colormaster.Lesson_Menu_Activity">
 
 
@@ -26,7 +26,7 @@
         android:id="@+id/click_colour_instruction"
         android:text="@string/click_colour"
         android:fontFamily="sans-serif-condensed"
-        android:textSize="24sp"
+        android:textSize="27sp"
         android:layout_below="@id/open_profile"
         android:layout_marginTop="15dp"
         />
