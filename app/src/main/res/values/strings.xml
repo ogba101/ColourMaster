@@ -11,15 +11,9 @@
     <string name="profile_8">profile_8</string>
     <string name="profile_9">profile_9</string>
     <string name="profile_name">profile_name</string>
-    <string name="click_colour">Click on a colour to get started!!</string>
-<<<<<<< HEAD
-    <string name="edit_profile">change later</string>
-    <string name="progress">change later</string>
-    <string name="ready">change later</string>
-=======
+    <string name="click_colour">Click a colour to get started!!</string>
     <string name="ready">I am ready! </string>
     <string name="progress">View progress </string>
     <string name="edit_profile">Edit profile </string>
->>>>>>> b96653839cfd0c48c8e9783fc1cdb7e25ff23458
 </resources>
 
