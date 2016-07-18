@@ -7,12 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-<<<<<<< HEAD
-    android:background="#EDE7F6"
-    tools:context="project.colormaster.profileManager">
-=======
+
     tools:context=".activity_profile_manager">
->>>>>>> b96653839cfd0c48c8e9783fc1cdb7e25ff23458
 
 
     <LinearLayout
