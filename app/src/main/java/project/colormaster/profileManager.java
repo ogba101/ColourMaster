@@ -8,6 +8,6 @@ public class profileManager extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile_manager);
+        setContentView(R.layout.activity_lesson__menu_);
     }
 }
