@@ -8,14 +8,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".profileManager">
+        <activity android:name=".activity_welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Lesson_Menu_Activity"></activity>
+        <activity android:name=".Lesson_Menu_Activity" />
+        <activity android:name=".user_profile_activity" />
+        <activity android:name=".activity_profile_manager"></activity>
     </application>
 
 </manifest>
