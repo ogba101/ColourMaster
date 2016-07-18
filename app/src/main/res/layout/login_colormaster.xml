@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#C5CAE9">
+        android:background="#EDE7F6">
 
         <!--  Header  Starts-->
         <LinearLayout
