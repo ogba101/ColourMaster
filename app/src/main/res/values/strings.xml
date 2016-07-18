@@ -12,4 +12,8 @@
     <string name="profile_9">profile_9</string>
     <string name="profile_name">profile_name</string>
     <string name="click_colour">Click on a colour to get started!!</string>
+    <string name="ready">I am ready! </string>
+    <string name="progress">View progress </string>
+    <string name="edit_profile">Edit profile </string>
 </resources>
+
