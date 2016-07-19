@@ -146,12 +146,15 @@
             android:layout_height="50dp"
             android:id="@+id/img_btn_add_profile"
             android:background="@drawable/ic_person_add_black_16dp_2x"
+            android:onClick="btn_add_profile"
+
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/add_profile"
             android:id="@+id/btn_add_profile"
+            android:onClick="btn_add_profile"
             />
 
     </LinearLayout>
