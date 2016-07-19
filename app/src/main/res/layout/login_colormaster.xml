@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimaryDark"
                 android:layout_marginLeft="100dp"
-                android:layout_marginTop="10dip"
+                android:layout_marginTop="30dip"
                 android:text="ADD"
                 android:onClick="btncreatep"
                 />

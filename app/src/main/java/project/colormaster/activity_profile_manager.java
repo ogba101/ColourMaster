@@ -44,6 +44,12 @@ public class activity_profile_manager extends AppCompatActivity
         startActivity(intent);
     }
 
+    public void btneditp(View v )
+    {
+        Intent intent = new Intent(this,login_activity.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onBackPressed() {
         moveTaskToBack(true);

@@ -15,11 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Lesson_Menu_Activity" />
         <activity android:name=".login_activity" />
         <activity android:name=".user_profile_activity" />
         <activity android:name=".activity_profile_manager"></activity>
+        <activity android:name=".progress_report_activity"></activity>
     </application>
 
 </manifest>
