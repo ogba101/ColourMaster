@@ -16,6 +16,7 @@ public class activity_profile_manager extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_manager);
+<<<<<<< HEAD
     }
 
     @Override
@@ -29,4 +30,18 @@ public class activity_profile_manager extends AppCompatActivity
         Intent intent = new Intent(context, login_activity.class);
         startActivity(intent);
     }
+=======
+       }
+    public void btnaddp(View v )
+    {
+        Intent intent = new Intent(this,login_activity.class);
+        startActivity(intent);
+    }
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
+        android.os.Process.killProcess(android.os.Process.myPid());
+        System.exit(1);
+    }
+>>>>>>> 5992592b9325efffb21d70edcac328dc512c6642
 }
