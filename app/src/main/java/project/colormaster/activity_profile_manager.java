@@ -16,32 +16,39 @@ public class activity_profile_manager extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_manager);
-<<<<<<< HEAD
+
     }
 
-    @Override
-    public void onBackPressed() {
-        moveTaskToBack(true);
-       android.os.Process.killProcess(android.os.Process.myPid());
-        System.exit(1);
-    }
-    public void btn_add_profile (View v )
+    public void btnprofile(View v )
     {
-        Intent intent = new Intent(context, login_activity.class);
+        Intent intent = new Intent(this,user_profile_activity.class);
         startActivity(intent);
     }
-=======
-       }
+
+    public void btnready(View v )
+    {
+        Intent intent = new Intent(this,Lesson_Menu_Activity.class);
+        startActivity(intent);
+    }
+
+
+    public void btncreatep(View v )
+    {
+        Intent intent = new Intent(this,activity_profile_manager.class);
+        startActivity(intent);
+    }
+
     public void btnaddp(View v )
     {
         Intent intent = new Intent(this,login_activity.class);
         startActivity(intent);
     }
+
     @Override
     public void onBackPressed() {
         moveTaskToBack(true);
         android.os.Process.killProcess(android.os.Process.myPid());
         System.exit(1);
     }
->>>>>>> 5992592b9325efffb21d70edcac328dc512c6642
+
 }
