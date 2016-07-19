@@ -25,7 +25,8 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
             android:background="@drawable/profile_button"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            />
 
         <Button
             android:id ="@+id/push_button2"
@@ -141,17 +142,13 @@
         android:layout_marginTop="20dp"
         >
 
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/img_btn_add_profile"
-            android:background="@drawable/ic_person_add_black_16dp_2x"
-            />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/add_profile"
             android:id="@+id/btn_add_profile"
+            android:onClick="btnaddp"
             />
 
     </LinearLayout>
