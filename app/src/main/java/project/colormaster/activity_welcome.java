@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Context;
 import android.content.Intent;
-
+import android.view.View;
 
 
 public class activity_welcome extends AppCompatActivity {
@@ -25,6 +25,7 @@ public class activity_welcome extends AppCompatActivity {
         }, 1500);
 
     }
+
 
 
 }
