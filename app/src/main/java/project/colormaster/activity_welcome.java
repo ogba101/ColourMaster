@@ -10,6 +10,8 @@ import android.view.View;
 
 public class activity_welcome extends AppCompatActivity {
     final Context context = this;
+    GlobalClass globe = ((GlobalClass)getApplicationContext());
+    int value= globe.btnClicked;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
