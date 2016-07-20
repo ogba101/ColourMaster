@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="20dp"
-                android:text="First Name"/>
+                android:text="@string/firstname"/>
             <EditText android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="20dp"
-                android:text="Last Name"/>
+                android:text="@string/lastname"/>
             <EditText android:layout_width="364dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
