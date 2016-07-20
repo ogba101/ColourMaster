@@ -16,7 +16,6 @@ public class activity_profile_manager extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_manager);
-
     }
 
     public void btnprofile(View v )
@@ -27,14 +26,11 @@ public class activity_profile_manager extends AppCompatActivity
 
 
 
-
-
     public void btnaddp(View v )
     {
         Intent intent = new Intent(this,login_activity.class);
         startActivity(intent);
     }
-
 
 
     @Override

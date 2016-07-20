@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 public class Lesson_Menu_Activity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
