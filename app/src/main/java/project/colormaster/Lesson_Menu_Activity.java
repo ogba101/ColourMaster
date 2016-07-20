@@ -14,7 +14,7 @@ public class Lesson_Menu_Activity extends AppCompatActivity {
 
     public void btnstartgame(View v )
     {
-        Intent intent = new Intent(this,game_session.class);
+        Intent intent = new Intent(this,game_session_red.class);
         startActivity(intent);
     }
 }

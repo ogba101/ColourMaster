@@ -11,10 +11,10 @@ import android.widget.Toast;
 
 import java.util.Locale;
 
-public class game_session extends AppCompatActivity {
+public class game_session_red extends AppCompatActivity {
     TextToSpeech t1;
-    float pitch=(float)(1.4);
-    float rate=(float)(0.9);
+    float pitch=(float)(1);
+    float rate=(float)(1);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
