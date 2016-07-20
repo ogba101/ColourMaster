@@ -13,9 +13,57 @@ public class Lesson_Menu_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_lesson__menu_);
     }
 
-    public void btnstartgame(View v )
+    public void btnstart_red(View v )
     {
-        Intent intent = new Intent(this,game_session.class);
+        Intent intent = new Intent(this,game_session_red.class);
+        startActivity(intent);
+    }
+
+    public void btnstart_orange(View v )
+    {
+        Intent intent = new Intent(this,game_session_orange.class);
+        startActivity(intent);
+    }
+
+    public void btnstart_yellow(View v )
+    {
+        Intent intent = new Intent(this,game_session_orange.class);
+        startActivity(intent);
+    }
+
+    public void btnstart_green(View v )
+    {
+        Intent intent = new Intent(this,game_session_orange.class);
+        startActivity(intent);
+    }
+
+    public void btnstart_blue(View v )
+    {
+        Intent intent = new Intent(this,game_session_orange.class);
+        startActivity(intent);
+    }
+
+    public void btnstart_indigo(View v )
+    {
+        Intent intent = new Intent(this,game_session_orange.class);
+        startActivity(intent);
+    }
+
+    public void btnstart_violet(View v )
+    {
+        Intent intent = new Intent(this,game_session_orange.class);
+        startActivity(intent);
+    }
+
+    public void btnstart_white(View v )
+    {
+        Intent intent = new Intent(this,game_session_orange.class);
+        startActivity(intent);
+    }
+
+    public void btnstart_black(View v )
+    {
+        Intent intent = new Intent(this,game_session_orange.class);
         startActivity(intent);
     }
 }

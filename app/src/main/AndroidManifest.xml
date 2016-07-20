@@ -20,7 +20,11 @@
         <activity android:name=".user_profile_activity" />
         <activity android:name=".activity_profile_manager" />
         <activity android:name=".progress_report_activity" />
-        <activity android:name=".game_session"></activity>
+        <activity android:name=".game_session_red" />
+        <activity android:name=".game_session_orange" />
+        <activity android:name=".game_session_yellow" />
+        <activity android:name=".game_session_green" />
+        <activity android:name=".game_session_blue"></activity>
     </application>
 
 </manifest>

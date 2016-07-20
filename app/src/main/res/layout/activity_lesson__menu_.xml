@@ -41,7 +41,7 @@
         android:layout_below="@id/click_colour_instruction"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:onClick="btnstartgame"
+        android:onClick="btnstart_red"
         />
 
     <Button
@@ -53,6 +53,7 @@
         android:layout_toRightOf="@id/red_button"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="30dp"
+        android:onClick="btnstart_orange"
         />
 
     <Button
@@ -64,6 +65,7 @@
         android:layout_toRightOf="@id/orange_button"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="30dp"
+        android:onClick="btnstart_yellow"
         />
 
     <Button
@@ -75,6 +77,7 @@
         android:layout_toRightOf="@id/yellow_button"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
+        android:onClick="btnstart_green"
         />
 
     <Button
@@ -85,6 +88,7 @@
         android:layout_below="@id/red_button"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="47dp"
+        android:onClick="btnstart_blue"
         />
 
     <Button
@@ -96,6 +100,7 @@
         android:layout_toRightOf="@id/blue_button"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="30dp"
+        android:onClick="btnstart_indigo"
         />
 
     <Button
@@ -107,6 +112,7 @@
         android:layout_toRightOf="@id/indigo_button"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="30dp"
+        android:onClick="btnstart_violet"
         />
 
     <Button
@@ -117,6 +123,7 @@
         android:layout_below="@id/blue_button"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="90dp"
+        android:onClick="btnstart_white"
         />
 
     <Button
@@ -128,5 +135,6 @@
         android:layout_toRightOf="@id/white_button"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="30dp"
+        android:onClick="btnstart_black"
         />
 </RelativeLayout>
