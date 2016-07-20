@@ -8,7 +8,6 @@ import android.view.View;
 import java.io.ObjectOutputStream;
 
 public class user_profile_activity extends AppCompatActivity {
-    ObjectOutputStream h;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
