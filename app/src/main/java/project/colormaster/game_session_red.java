@@ -5,17 +5,13 @@ import android.os.Handler;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 import java.util.Locale;
 
-
 public class game_session_red extends AppCompatActivity {
-
     TextToSpeech t1;
-    float pitch=(float)(1.4);
-    float rate=(float)(0.9);
+    float pitch=(float)(1);
+    float rate=(float)(1);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
