@@ -5,4 +5,14 @@
         <color name="colorPrimaryDark">#673AB7</color>
         <color name="colorAccent">#3F51B5</color>
         <color name="background">#EDE7F6</color>
+        <color name="black">#000000</color>
+    <color name="blue">#11A9F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#58F011</color>
+    <color name="indigo">#4b0082</color>
+    <color name="violet">#EE82EE</color>
+    <color name="red">#FF2406</color>
+    <color name="orange">#F38E05</color>
+    <color name="yellow">#F9F515</color>
+
 </resources>

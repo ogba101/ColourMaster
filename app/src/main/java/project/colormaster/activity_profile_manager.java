@@ -25,18 +25,9 @@ public class activity_profile_manager extends AppCompatActivity
         startActivity(intent);
     }
 
-    public void btnready(View v )
-    {
-        Intent intent = new Intent(this,Lesson_Menu_Activity.class);
-        startActivity(intent);
-    }
 
 
-    public void btncreatep(View v )
-    {
-        Intent intent = new Intent(this,activity_profile_manager.class);
-        startActivity(intent);
-    }
+
 
     public void btnaddp(View v )
     {
@@ -44,11 +35,7 @@ public class activity_profile_manager extends AppCompatActivity
         startActivity(intent);
     }
 
-    public void btneditp(View v )
-    {
-        Intent intent = new Intent(this,login_activity.class);
-        startActivity(intent);
-    }
+
 
     @Override
     public void onBackPressed() {
