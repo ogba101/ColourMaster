@@ -13,6 +13,12 @@ public class user_profile_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile_activity);
     }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this,activity_profile_manager.class);
+        startActivity(intent);
+    }
+
 
     public void btnready(View v )
     {
@@ -22,7 +28,7 @@ public class user_profile_activity extends AppCompatActivity {
 
     public void btneditp(View v )
     {
-        Intent intent = new Intent(this,login_activity.class);
+        Intent intent = new Intent(this,login_plusdel.class);
         startActivity(intent);
     }
     public void btnviewprogress(View v )

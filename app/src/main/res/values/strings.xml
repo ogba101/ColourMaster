@@ -40,5 +40,8 @@
     <string name="gametext_black"> The colour I am thinking of is Black </string>
     <string name="audioSelect">Mute Audio</string>
     <string name="ready">play</string>
+    <string name="DeleteTxt">Delete</string>
+    <string name="diagonalTxt">Congratulations!!! You completed this Colour. Try another one</string>
+    <string name="quiTxt">Quiz</string>
 
 </resources>

@@ -66,6 +66,15 @@
                 android:text="ADD"
                 android:onClick="btncreatep"
                 />
+            <Button android:id="@+id/btndelete"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="30dip"
+                android:text="@string/DeleteTxt"
+                android:onClick="btncreatep"
+                />
         </LinearLayout>
         <!-- Login Form Ends -->
     </RelativeLayout>

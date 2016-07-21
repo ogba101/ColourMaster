@@ -26,6 +26,11 @@ public class Lesson_Menu_Activity extends AppCompatActivity {
         settingClick();
         return super.onOptionsItemSelected(item);
     }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this,user_profile_activity.class);
+        startActivity(intent);
+    }
     public void settingClick()
     {
         Intent myIntent=new Intent(context,Settings_Activity.class);
