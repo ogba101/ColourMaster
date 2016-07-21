@@ -9,8 +9,7 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-public class game_session_green extends AppCompatActivity {
-
+public class game_session_white extends AppCompatActivity {
 
     TextToSpeech t1;
     float pitch=(float)(1);
@@ -19,8 +18,7 @@ public class game_session_green extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.game_session_green);
-
+        setContentView(R.layout.activity_game_session_white);
 
         t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
@@ -33,7 +31,7 @@ public class game_session_green extends AppCompatActivity {
                 }
             }
         });
-        TextView tx = (TextView)findViewById(R.id.thinkTxt_green);
+        TextView tx = (TextView)findViewById(R.id.thinkTxt_white);
         final String toSpeak = tx.getText().toString();
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/kg.ttf");
         tx.setTypeface(custom_font);

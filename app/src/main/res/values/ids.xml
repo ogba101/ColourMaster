@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="thinkTxt" type="id" />
+    <item name="thinkTxt_red" type="id" />
+    <item name="thinkTxt_orange" type="id" />
+    <item name="thinkTxt_yellow" type="id" />
+    <item name="thinkTxt_green" type="id" />
+    <item name="thinkTxt_blue" type="id" />
+    <item name="thinkTxt_indigo" type="id" />
+    <item name="thinkTxt_violet" type="id" />
+    <item name="thinkTxt_white" type="id" />
+    <item name="thinkTxt_black" type="id" />
+    <item name="profile_1" type="id" />
 </resources>

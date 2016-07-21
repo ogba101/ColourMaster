@@ -27,7 +27,7 @@ public class game_session_red extends AppCompatActivity {
                 }
             }
         });
-        TextView tx = (TextView)findViewById(R.id.thinkTxt);
+        TextView tx = (TextView)findViewById(R.id.thinkTxt_red);
         final String toSpeak = tx.getText().toString();
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/kg.ttf");
         tx.setTypeface(custom_font);
