@@ -10,12 +10,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="project.colormaster.Settings_Activity">
 
-    <CheckBox
+
+    <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/audioSelect"
-        android:textSize="25dp"
-        android:id="@+id/checkBox"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:text="On"
+        android:id="@+id/toggleButton"
+        android:checked="true"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Audio"
+        android:textSize="35dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/toggleButton"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
