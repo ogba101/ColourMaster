@@ -7,15 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".game_session_red"
-    android:background="#FFFFFF"
-    >
+    tools:context="project.colormaster.game_session_violet"
+    android:background="@color/white">
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="@drawable/girl_background_red"
+        android:background="@drawable/girl_background_violet"
         android:id="@+id/tophalf"
         android:layout_marginTop="20dp">
 
@@ -23,9 +22,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/gametext_red"
-        android:textColor="@color/red"
-        android:id="@id/thinkTxt_red"
+        android:text="@string/gametext_violet"
+        android:textColor="@color/violet"
+        android:id="@id/thinkTxt_violet"
         android:fontFamily="sans-serif-smallcaps"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="30dp"
@@ -33,4 +32,5 @@
         android:textSize="35dp"
         android:layout_below="@id/tophalf"
         />
+
 </RelativeLayout>

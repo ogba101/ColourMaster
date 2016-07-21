@@ -19,7 +19,7 @@
         android:onClick="btnprofile">
 
         <Button
-            android:id ="@+id/push_button"
+            android:id ="@+id/profile_1"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:text="@string/profile_1"
@@ -30,7 +30,7 @@
             android:onClick="btnprofile" />
 
         <Button
-            android:id ="@+id/push_button2"
+            android:id ="@+id/profile_2"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:text="@string/profile_2"
@@ -41,7 +41,7 @@
             android:onClick="btnprofile" />
 
         <Button
-            android:id ="@+id/push_button3"
+            android:id ="@+id/profile_3"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:text="@string/profile_3"
@@ -62,7 +62,7 @@
         android:layout_centerHorizontal="true">
 
         <Button
-            android:id ="@+id/push_button4"
+            android:id ="@+id/profile_4"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:layout_marginTop="5dp"
@@ -73,7 +73,7 @@
             android:onClick="btnprofile" />
 
         <Button
-            android:id ="@+id/push_button5"
+            android:id ="@+id/profile_5"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:text="@string/profile_5"
@@ -84,7 +84,7 @@
             android:onClick="btnprofile" />
 
         <Button
-            android:id ="@+id/push_button6"
+            android:id ="@+id/profile_6"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_marginTop="5dp"
@@ -105,7 +105,7 @@
         android:layout_centerHorizontal="true">
 
         <Button
-            android:id ="@+id/push_button7"
+            android:id ="@+id/profile_7"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_marginTop="5dp"
@@ -116,7 +116,7 @@
             android:onClick="btnprofile" />
 
         <Button
-            android:id ="@+id/push_button8"
+            android:id ="@+id/profile_8"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_marginTop="5dp"
@@ -127,7 +127,7 @@
             android:onClick="btnprofile" />
 
         <Button
-            android:id ="@+id/push_button9"
+            android:id ="@+id/profile_9"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:text="@string/profile_9"

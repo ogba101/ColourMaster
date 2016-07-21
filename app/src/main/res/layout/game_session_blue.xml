@@ -29,6 +29,8 @@
         android:layout_marginRight="10dp"
         android:textSize="35dp"
         android:layout_below="@id/tophalf"
+        android:id="@id/thinkTxt_blue"
+        android:fontFamily="sans-serif-smallcaps"
         />
 
 </RelativeLayout>
