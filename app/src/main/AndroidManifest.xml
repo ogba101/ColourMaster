@@ -24,7 +24,8 @@
         <activity android:name=".game_session_orange" />
         <activity android:name=".game_session_yellow" />
         <activity android:name=".game_session_green" />
-        <activity android:name=".game_session_blue"></activity>
+        <activity android:name=".game_session_blue" />
+        <activity android:name=".Settings_Activity"></activity>
     </application>
 
 </manifest>

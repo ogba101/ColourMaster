@@ -12,7 +12,6 @@
     <string name="profile_9">profile_9</string>
     <string name="profile_name">profile_name</string>
     <string name="click_colour">Click a colour to get started!!</string>
-    <string name="ready">Let's play! </string>
     <string name="progress">View progress </string>
     <string name="edit_profile">Edit profile </string>
     <string name="delete">Delete profile </string>
@@ -39,4 +38,7 @@
     <string name="gametext_violet"> The colour I am thinking of is Violet </string>
     <string name="gametext_white"> The colour I am thinking of is White </string>
     <string name="gametext_black"> The colour I am thinking of is Black </string>
+    <string name="audioSelect">Mute Audio</string>
+    <string name="ready">play</string>
+
 </resources>
